@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hope Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Hope Hub</h1>
+    <nav>
+      <a href="#resources">Resources</a>
+      <a href="#donate">Donate</a>
+      <a href="#volunteer">Volunteer</a>
+      <button id="toggle-dark">🌓</button>
+    </nav>
+  </header>
+
+  <section id="stats">
+    <h2>Live Homelessness Data (Simulated)</h2>
+    <div id="data">Loading data...</div>
+  </section>
+
+  <section id="resources">
+    <h2>Resource Navigator - Stockton, CA</h2>
+    <div class="resource-list" id="resource-list"></div>
+  </section>
+
+  <section id="emergency">
+    <h2>Emergency Help</h2>
+    <button onclick="alert('Calling 911...')">🚨 Emergency Help</button>
+  </section>
+
+  <section id="donate">
+    <h2>Support Hope Hub</h2>
+    <p><a href="#">Donate here</a> or <a href="#">Volunteer with us</a></p>
+  </section>
+
+  <footer>Hope Hub © 2025</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
